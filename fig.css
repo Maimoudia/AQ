@@ -1,0 +1,245 @@
+
+body{
+        background-color: black;
+        min-width: 90vh;
+        margin: 0px;
+       
+}
+
+nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 10px;
+}
+
+.logo1{
+        padding: 12px;
+        margin-left: 50px;
+        font-size: 1.5rem;
+        font-weight: bold;
+}
+
+.degrade{
+        position:absolute;
+
+}
+.nav-links a {
+        width: 280px;
+        text-decoration: none;
+        color: white;
+}
+
+.nav-links ul{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+align-items: center;
+margin-right: 40px;
+gap: 15px;
+padding: 12px;
+}
+
+
+.join-button {
+        font-family: "inter";
+        padding: 0.5rem 1rem;
+        border-radius: 10px;
+        box-shadow: 0px 2px 3px 0px cyan;
+}
+/* fin de navigation  */
+.hero {
+        text-align: center;
+        padding: 4rem 2rem;
+        max-width: 800px;
+        margin: 0 auto;
+}
+
+.hero h1 {
+        font-size: 3rem;
+        margin-bottom: 1.5rem;
+        color: #ffffffb5;
+        text-shadow: 1px 1px 1px gray;
+        text-transform: none;
+        font-family: "Inter", sans-serif;
+}
+
+.hero p {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        color: #888;
+}
+
+.primary-button {
+        background-color: transparent;  
+        color: white;
+        cursor: pointer;
+        box-shadow: 0px 6px 8px -4px cyan;
+        border-radius: 10px;
+        font-size: 1.2rem;
+        position: absolute;
+        padding: 5px;
+        margin-left: 10px;
+}
+
+.secondary-button {
+        background-color: transparent;
+        color: white;
+        padding: 1rem 3rem;
+        border-radius: 7px;
+        cursor: pointer;
+        margin-top: 50px;
+}
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+.inter-uniquifier {
+        font-family: "Inter", serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+}
+span{
+        color: white;
+        position: relative;
+        box-shadow: 0 0 0 rgb(74, 66, 66);
+        padding: 10px;
+}
+.img{
+        display: flex;
+        margin-top: 4rem;
+        justify-content: center;
+
+}
+
+/* les textes ecrit  */
+
+.container1 {
+        font-family: "inter";
+        max-width: auto;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        gap: 130px;
+
+}
+
+.title1{
+        font-size: 3em;
+        font-weight: bold;
+        color: #f0f0f0;
+        width: 600px;
+        margin-top: 0px;
+        display: flex;
+
+        
+
+}
+
+.para1{
+        font-size: 12px;
+        line-height: 1.6;
+        color: #b0b0b0;
+        width: 450px;
+}
+
+p span {
+        color: #f0f0f0;
+        font-weight: bold;
+}
+
+.text {
+        color: white;
+        text-align: left;
+        padding: 40px 20px;
+}
+
+.title2 {
+         font-size: 3em;
+         font-weight: bold;
+         color: #f0f0f0;
+         width: 600px;
+         margin-top: 0px;
+         display: flex;
+         margin-left: 110px;
+
+}
+
+.para2 {
+
+        font-size: 15px;
+        line-height: 1.6;
+        color: #b0b0b0;
+        width: 450px;
+        margin-left: 120px;
+
+}
+/* les bloc dimage  */
+.bloc{
+        margin-right: 140px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+}
+
+.bloc1{
+        color: white;
+        margin-right: 20px;
+        margin-bottom: -40px;
+        justify-content: center;
+}
+
+.bloc2{
+       
+       margin-top: 20px;
+      color: white;
+      margin-bottom: 50px;
+       
+}
+
+.bloc3{
+        color: white;
+        margin-right: 20px;
+       
+        
+}
+.t3{
+        position: relative;
+        margin-top: -100px;
+        width: 300px;
+        left: 60px;
+        top: 50px;
+        font-family: "inter";
+}
+.p3{
+        font-size: 12px;
+                line-height: 1.6;
+                color: #b0b0b0;
+                width: 450px;
+                margin-top: 60px;
+                margin-bottom: 80px;
+}
+.t2{
+        margin-left: 100px;
+        font-family: "Inter";
+        margin-bottom: 60px;
+}
+.p2{
+                font-size: 12px;
+                line-height: 1.6;
+                color: #b0b0b0;
+                margin-bottom: 80px;
+                left: 20px;
+                        
+}
+.t1{
+        margin-left: 140px;
+        margin-bottom: 140px;
+}
+.p1{
+                font-size: 10px;
+                line-height: 1.6;
+                color: #b0b0b0;
+                margin-bottom: 240px;
+}
